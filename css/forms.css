@@ -1,0 +1,34 @@
+/* CSS Document */
+
+#container #respond{display: block; width:100%; margin:20px 0 0 0;}
+
+#container #respond input.fname , #container #respond select.fname {width:310px; padding:2px; height:20px; border:1px solid #CCCCCC; margin:5px 0px 20px 0;}
+#container #respond input.lname , #container #respond select.lname{width:258px; padding:2px; height:20px; border:1px solid #CCCCCC; margin:5px 0px 20px 0;}
+#container #respond textarea{width:99%; border:1px solid #CCCCCC; padding:2px; overflow:auto;}
+	
+#container #respond p{margin:0px 5px; padding:0;}
+
+#container #respond #submit, #container #respond #reset , #container #respond .submit{
+	margin:5px 0 0 0;
+	padding:4px;
+	color:#fff;
+	width:auto;
+	background:url(../images/submit_btn.png) top left repeat-x;
+	border:1px solid #CCCCCC;
+	font-family:"Century Gothic";
+	font-size:14px;
+	cursor:pointer;
+}
+
+#container #respond #submit:hover, #container #respond #reset:hover{
+	background:url(../images/submit_btn_hv.png) top left repeat-x;
+}
+	
+	
+#container #respond .label{
+	color:#0392b9;
+	font-family:"Century Gothic";
+	font-size:16px;
+	margin-left:5px;
+	
+}
